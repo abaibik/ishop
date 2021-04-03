@@ -6,39 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="header container">
-        <div class="header_left">
-            <img src="images/logo_b.jpg" alt="logo">
-            <div class="header_text">
-                <h1 class="heading__logo">bran</h1>
-                <h1 class="heading__logo heading__logo-part2">d</h1>
+    <div class="header">
+        <div class="header_both_parts container">
+            <div class="header_left">
+                <img src="images/logo_b.jpg" alt="logo">
+                <div class="header_text">
+                    <h1 class="heading__logo">bran</h1>
+                    <h1 class="heading__logo heading__logo-part2">d</h1>
+                </div>
+
+                <div class="form-browse">
+                        <a class="link__browse" href="#">Browse <i class="fa fa-caret-down"></i></a>
+                        <input type="text" class="form-browse__text" placeholder="Search for Item..."></input>
+                        <div class="form-browse__line"></div>
+                        <a href="#"><i class="fa fa-search browse__button" aria-hidden="true"></i></a>
+                </div>
             </div>
-            <div class="form">
-                <form action="#">
-                    <button class="button__browse" type="button">Browse &#9662;</button>
-                    <textarea class="form-browse" placeholder="Search for Item..."></textarea>
-                </form>
+
+            <div class="header_right">
+                <img src="images/cart.jpg" alt="cart">
+                    <a class="rose-button" href="#">My Account <i class="fa fa-caret-down"></i></a>
             </div>
-        </div>
-        <div class="header_right">
-            <img src="images/cart.jpg" alt="cart">
-            <form action="#">
-                <button class="rose-button" type="button">My Account &#9662;</button>
-            </form>
         </div>
     </div>
 
-    <div class="mega-menu container">
-        <a class="text__mega-menu" href="#">Home</a>
-        <a class="text__mega-menu" href="#">Man</a>
-        <a class="text__mega-menu" href="#">Women</a>
-        <a class="text__mega-menu" href="#">Kids</a>
-        <a class="text__mega-menu" href="#">Accesoires</a>
-        <a class="text__mega-menu" href="#">Featured</a>
-        <a class="text__mega-menu" href="#">Hot Deals</a>
+    <div class="navigation">
+        <ul class="mega-menu">
+            <li class="text__mega-menu" href="#">Home</li>
+            <li class="text__mega-menu" href="#">Man</li>
+            <li class="text__mega-menu" href="#">Women</li>
+            <li class="text__mega-menu" href="#">Kids</li>
+            <li class="text__mega-menu" href="#">Accesoires</li>
+            <li class="text__mega-menu" href="#">Featured</li>
+            <li class="text__mega-menu" href="#">Hot Deals</li>
+        </ul>
     </div>
+    
 
     <div class="slider">
         <img class="slider-img" src="images/slider.png" alt="man in t-shirt">
