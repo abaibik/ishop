@@ -115,12 +115,17 @@ body {
     text-decoration: none;
 }
 
+.rose-button:hover {
+    background-color: #fff;
+    color: #f16d7f;
+    border: 1px solid #f16d7f;
+}
+
 .mega-menu {
     height: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style-type: none;
-    width: 680px;
 }
 
 .text__mega-menu {
@@ -129,6 +134,8 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #222222;
+    display: block;
+    padding: 20px 25px;
 }
 
 .slider-img {
@@ -177,24 +184,63 @@ body {
     color: #f16d7f;
 }
 
-.card-box {
+.offers-box {
     margin-top: 150px;
     display: flex;
 }
 
-.cards-left {
+.offers-left {
     display: flex;
     flex-direction: column;
     width: 50%;
     padding-right: 20px;
 }
 
-.cards-right {
+.offers-right {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
-.img_top {
+.img-offer {
+    position: absolute;
+}
+
+.img-offer_top {
     padding-bottom: 20px;
+}
+
+.offer {
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 26px;
+    height: 82px;
+}
+
+.offers__small-letters {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.offers__big-letters {
+    font-size: 30px;
+    color: #f16d7f;
+    text-transform: uppercase;
+}
+
+.mens-deals {
+    width: 175px;
+}
+
+.offer__padding {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 20px;
 }
