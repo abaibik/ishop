@@ -216,6 +216,32 @@ body {
     color: #f16d7f;
 }
 
+.mega-item__padding {
+    padding-top: 20px;
+}
+
+.mega-item__img_plus_text {
+    margin-top: 20px;
+}
+
+.mega-item__img {
+    position: absolute;
+    width: 230px;
+    height: 118px;
+    background-color: #efefef;
+}
+
+.text-mega-item__img {
+    position: relative;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    
+}
+
 .slider-img {
     position: absolute;
     width: 100%;
