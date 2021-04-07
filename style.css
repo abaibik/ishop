@@ -221,7 +221,7 @@ body {
 }
 
 .mega-item__img_plus_text {
-    margin-top: 20px;
+    text-decoration: none;
 }
 
 .mega-item__img {
@@ -229,6 +229,7 @@ body {
     width: 230px;
     height: 118px;
     background-color: #efefef;
+    margin-top: 20px;
 }
 
 .text-mega-item__img {
@@ -239,7 +240,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.025em;
     color: #ffffff;
-    
+    top: 40%;
+    left: 40%;
 }
 
 .slider-img {
