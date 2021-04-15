@@ -103,7 +103,6 @@ body {
 
 .header_right {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
 }
 
