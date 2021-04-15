@@ -28,8 +28,6 @@ body {
 
 .header_left {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     align-items: center;
 }
 
@@ -240,8 +238,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.025em;
     color: #ffffff;
-    top: 40%;
-    left: 40%;
+    top: 25%;
+    left: 65%;
 }
 
 .slider-img {
