@@ -239,6 +239,7 @@ body {
     color: #ffffff;
     top: 25%;
     left: 65%;
+    transition: all .5s;
 }
 
 .slider-img {
