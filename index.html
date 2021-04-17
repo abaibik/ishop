@@ -25,7 +25,7 @@
 
                 <div class="form-browse">
                         <a class="link__browse" href="#">Browse <i class="fa fa-caret-down"></i></a>
-                        <input type="text" class="form-browse__text" placeholder="Search for Item..."></input>
+                        <input type="text" class="form-browse__text" placeholder="Search for Item..." autofocus required></input>
                         <div class="form-browse__line"></div>
                         <a href="#"><i class="fa fa-search browse__button" aria-hidden="true"></i></a>
                 </div>
@@ -99,7 +99,7 @@
                 <li class="text__mega-menu"> <a class="link__mega-menu"href="#">Kids</a></li>
                 <li class="text__mega-menu"> <a class="link__mega-menu"href="#">Accesoires</a></li>
                 <li class="text__mega-menu"> <a class="link__mega-menu"href="#">Featured</a></li>
-                <li class="text__mega-menu"> <a class="link__mega-menu"href="#">Hot Deals</a></li>
+                <li class="text__mega-menu text__mega-menu__last"> <a class="link__mega-menu"href="#">Hot Deals</a></li>
             </ul>
         </div>
     </nav>
@@ -173,74 +173,128 @@
     <section class="products-section">
         <div class="container">
             <h3 class="products-heading">Featured Items</h3>
-            <h4 class="products-crossheading">Shop for items based on what we featured in this week</h4>
+            <p class="products-crossheading">Shop for items based on what we featured in this week</p>
 
-            <div class="products__top">
-                <div class="product">
-                    <img class="product_img" src="images/product1.jpg" alt="product 1">
-                    <a class="product__description" href="#">
-                        <span class="product__name">Mango People T-shirt</span>
-                        <span class="product__price">$52.00</span>
+            <div class="products__box">
+                <div class="item">
+                    <a class="product">
+                        <img class="product_img" src="images/product1.jpg" alt="product 1">
+                        <div class="product__description" href="#">
+                            <p class="product__name">Mango People T-shirt</p>
+                            <p class="product__price">$52.00</p>
+                        </div>
                     </a>
+                        <div class="product_to_cart">
+                            <a class="add" href="#">
+                            <img class="add-img" src="images/cart_items.png" alt="cart-img">Add to cart
+                            </a>
+                        </div>
                 </div>
 
-                <div class="product">
-                    <img class="product_img" src="images/product2.jpg" alt="product 2">
-                    <a class="product__description" href="#">
-                        <span class="product__name">Mango People T-shirt</span>
-                        <span class="product__price">$52.00</span>
+                <div class="item">
+                    <a class="product">
+                        <img class="product_img" src="images/product2.jpg" alt="product 2">
+                        <div class="product__description" href="#">
+                            <p class="product__name">Mango People T-shirt</p>
+                            <p class="product__price">$52.00</p>
+                        </div>
                     </a>
+                        <div class="product_to_cart">
+                            <a class="add" href="#">
+                            <img class="add-img" src="images/cart_items.png" alt="cart-img">Add to cart
+                            </a>
+                        </div>
                 </div>
 
-                <div class="product">
-                    <img class="product_img" src="images/product3.jpg" alt="product 3">
-                    <a class="product__description" href="#">
-                        <span class="product__name">Mango People T-shirt</span>
-                        <span class="product__price">$52.00</span>
+                <div class="item">
+                    <a class="product">
+                        <img class="product_img" src="images/product3.jpg" alt="product 3">
+                        <div class="product__description" href="#">
+                            <p class="product__name">Mango People T-shirt</p>
+                            <p class="product__price">$52.00</p>
+                        </div>
                     </a>
+                        <div class="product_to_cart">
+                            <a class="add" href="#">
+                            <img class="add-img" src="images/cart_items.png" alt="cart-img">Add to cart
+                            </a>
+                        </div>
                 </div>
 
-                <div class="product">
-                    <img class="product_img" src="images/product4.jpg" alt="product 4">
-                    <a class="product__description" href="#">
-                        <span class="product__name">Mango People T-shirt</span>
-                        <span class="product__price">$52.00</span>
+                <div class="item">
+                    <a class="product">
+                        <img class="product_img" src="images/product4.jpg" alt="product 4">
+                        <div class="product__description" href="#">
+                            <p class="product__name">Mango People T-shirt</p>
+                            <p class="product__price">$52.00</p>
+                        </div>
                     </a>
-                </div>  
-            </div>
-
-            <div class="products__bottom">
-                <div class="product">
-                    <img class="product_img" src="images/product5.jpg" alt="product 5">
-                    <a class="product__description" href="#">
-                        <span class="product__name">Mango People T-shirt</span>
-                        <span class="product__price">$52.00</span>
+                        <div class="product_to_cart">
+                            <a class="add" href="#">
+                            <img class="add-img" src="images/cart_items.png" alt="cart-img">Add to cart
+                            </a>
+                        </div>
+                </div>
+            
+                <div class="item">
+                    <a class="product">
+                        <img class="product_img" src="images/product5.jpg" alt="product 5">
+                        <div class="product__description" href="#">
+                            <p class="product__name">Mango People T-shirt</p>
+                            <p class="product__price">$52.00</p>
+                        </div>
                     </a>
+                        <div class="product_to_cart">
+                            <a class="add" href="#">
+                            <img class="add-img" src="images/cart_items.png" alt="cart-img">Add to cart
+                            </a>
+                        </div>
                 </div>
 
-                <div class="product">
-                    <img class="product_img" src="images/product6.jpg" alt="product 6">
-                    <a class="product__description" href="#">
-                        <span class="product__name">Mango People T-shirt</span>
-                        <span class="product__price">$52.00</span>
+                <div class="item">
+                    <a class="product">
+                        <img class="product_img" src="images/product6.jpg" alt="product 6">
+                        <div class="product__description" href="#">
+                            <p class="product__name">Mango People T-shirt</p>
+                            <p class="product__price">$52.00</p>
+                        </div>
                     </a>
+                        <div class="product_to_cart">
+                            <a class="add" href="#">
+                            <img class="add-img" src="images/cart_items.png" alt="cart-img">Add to cart
+                            </a>
+                        </div>
                 </div>
 
-                <div class="product">
-                    <img class="product_img" src="images/product7.jpg" alt="product 7">
-                    <a class="product__description" href="#">
-                        <span class="product__name">Mango People T-shirt</span>
-                        <span class="product__price">$52.00</span>
+                <div class="item">
+                    <a class="product">
+                        <img class="product_img" src="images/product7.jpg" alt="product 7">
+                        <div class="product__description" href="#">
+                            <p class="product__name">Mango People T-shirt</p>
+                            <p class="product__price">$52.00</p>
+                        </div>
                     </a>
+                        <div class="product_to_cart">
+                            <a class="add" href="#">
+                            <img class="add-img" src="images/cart_items.png" alt="cart-img">Add to cart
+                            </a>
+                        </div>
                 </div>
 
-                <div class="product">
-                    <img class="product_img" src="images/product8.jpg" alt="product 8">
-                    <a class="product__description" href="#">
-                        <span class="product__name">Mango People T-shirt</span>
-                        <span class="product__price">$52.00</span>
+                <div class="item">
+                    <a class="product">
+                        <img class="product_img" src="images/product8.jpg" alt="product 8">
+                        <div class="product__description" href="#">
+                            <p class="product__name">Mango People T-shirt</p>
+                            <p class="product__price">$52.00</p>
+                        </div>
                     </a>
-                </div>  
+                        <div class="product_to_cart">
+                            <a class="add" href="#">
+                            <img class="add-img" src="images/cart_items.png" alt="cart-img">Add to cart
+                            </a>
+                        </div>
+                </div>
 
             </div>
 
