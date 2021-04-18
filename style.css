@@ -871,3 +871,16 @@ body {
 .footer-smedia a:hover i {
     color: #f16d7f;
 }
+
+.main-header {
+    background-color: #222222;
+}
+
+.main-header_both_parts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    text-decoration: none;
+}
