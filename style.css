@@ -1292,4 +1292,42 @@ details[open] > summary::before {
 .look-button img {
   margin-right: 20px;
 }
+
+.more-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.more-product {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.more-product-link {
+  text-decoration: none;
+}
+
+.more-product__description {
+  margin: 25px 30px 60px 17px;
+}
+
+.more-product__description h4 {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.more-product__description p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5D5D5D;
+}
+
+.more-product__price {
+  font-size: 16px;
+  line-height: 19px;
+  color: #F16D7F;
+}
 /*# sourceMappingURL=style.css.map */
