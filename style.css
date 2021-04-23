@@ -1155,8 +1155,20 @@ body {
   color: #F16D7F;
 }
 
+.product-breadcrumb {
+  list-style-type: none;
+}
+
+.breadcrumb-link::after {
+  padding: 5px;
+  color: #636363;
+  content: "/\00a0";
+}
+
 .breadcrumb-item {
+  display: inline;
   text-transform: uppercase;
+  text-decoration: none;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
