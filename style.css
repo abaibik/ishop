@@ -1342,4 +1342,51 @@ details[open] > summary::before {
   line-height: 19px;
   color: #F16D7F;
 }
+
+.menu-sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.filter p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter img {
+  padding-left: 10px;
+}
+
+.sort-list {
+  list-style-type: none;
+}
+
+.sort-link {
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  display: inline;
+}
+
+.sort-link a {
+  text-decoration: none;
+}
+
+.sort-link:hover a {
+  color: #F16D7F;
+}
+
+.sort-link::after {
+  padding-left: 10px;
+  padding-right: 30px;
+  color: #636363;
+  content: "\02C5";
+}
 /*# sourceMappingURL=style.css.map */
