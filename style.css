@@ -1458,4 +1458,8 @@ details[open] > summary::before {
       -ms-hyphens: none;
           hyphens: none;
 }
+
+.opened-cart {
+  margin-top: 100px;
+}
 /*# sourceMappingURL=style.css.map */
